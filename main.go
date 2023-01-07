@@ -14,7 +14,7 @@ func init() {
 	fmt.Scan(&lengte)
 	fmt.Println("Type hoeveel getallen u wilt genereren in uw wachtwoord")
 	fmt.Scan(&getallen)
-	fmt.Println("Type hoeveel symbolen u wilt genereren in uw wachtwoord")
+	fmt.Println("Type hoeveel symbolen u wil genereren in uw wachtwoord")
 	fmt.Scan(&symbolen)
 }
 
