@@ -1,2 +1,2 @@
 # Password-generator
-Simple password generator in GO
+Simple password generator in GO using docker
