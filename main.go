@@ -12,9 +12,9 @@ var lengte, getallen, symbolen int
 func init() {
 	fmt.Println("Type hoe lang u uw wachtwoord wil maken.")
 	fmt.Scan(&lengte)
-	fmt.Println("Type hoeveel getallen u wilt genereren in uw wachtwoord")
+	fmt.Println("Type hoeveel getallen u wilt genereren in uw wachtwoord.")
 	fmt.Scan(&getallen)
-	fmt.Println("Type hoeveel symbolen u wilt genereren in uw wachtwoord")
+	fmt.Println("Type hoeveel symbolen u wilt genereren in uw wachtwoord.")
 	fmt.Scan(&symbolen)
 }
 
