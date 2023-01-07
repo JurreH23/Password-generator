@@ -27,6 +27,6 @@ func wachtwoord() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Printf(res)
+	log.Print(res)
 
 }
