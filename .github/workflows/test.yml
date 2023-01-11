@@ -1,4 +1,4 @@
-name: Password lint
+name: Build & Test
 
 on:
   push:
