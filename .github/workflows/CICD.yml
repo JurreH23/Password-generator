@@ -36,6 +36,7 @@ jobs:
       - name: Test with the Go CLI
         run: go run ./main.go
   publish:
+    needs: [lint, test]
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
