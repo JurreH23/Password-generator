@@ -21,6 +21,7 @@ jobs:
 
           golangci-lint run
   test:
+    needs: lint
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
@@ -36,7 +37,7 @@ jobs:
       - name: Test with the Go CLI
         run: go run ./main.go
   publish:
-    needs: [lint, test]
+    needs: test
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
